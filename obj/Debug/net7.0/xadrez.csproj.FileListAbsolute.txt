@@ -1,0 +1,14 @@
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.AssemblyInfoInputs.cache
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.AssemblyInfo.cs
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.csproj.CoreCompileInputs.cache
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\bin\Debug\net7.0\xadrez.exe
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\bin\Debug\net7.0\xadrez.deps.json
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\bin\Debug\net7.0\xadrez.runtimeconfig.json
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\bin\Debug\net7.0\xadrez.dll
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\bin\Debug\net7.0\xadrez.pdb
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.dll
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\refint\xadrez.dll
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.pdb
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\xadrez.genruntimeconfig.cache
+C:\Users\G-Fire\source\repos\solutionTeste\fodase\xadrez\obj\Debug\net7.0\ref\xadrez.dll
