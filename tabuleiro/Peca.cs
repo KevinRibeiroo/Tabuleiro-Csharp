@@ -7,7 +7,7 @@ using tabuleiro;
 
 namespace xadrez.tabuleiro
 {
-    public class Peca
+    public abstract class Peca
     {
         public Posicao Posicao { get; set; }
 
@@ -22,5 +22,31 @@ namespace xadrez.tabuleiro
             this.tab = tab;
             this.qteMovimentos = 0;
         }
+
+        public void IncrementarQtdMovimentos() 
+        {
+            qteMovimentos++; 
+        }
+
+        public bool ExisteMovimentosPossiveis()
+        {
+            bool[,] mat = MovimentosPossiveis();
+            for (int i = 0; i < tab.Linhas; i++)
+            {
+                for (int j = 0; j < tab.Colunas; j++)
+                {
+                    if (mat[i,j])
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        public abstract bool[,] MovimentosPossiveis();
+
+        public abstract bool PodeMover(Posicao pos);
     }
 }
