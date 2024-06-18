@@ -22,10 +22,9 @@ internal class Program
                 try
                 {
                     Console.Clear();
-                    Tela.imprimirTabuleiro(partidaDeXadrez.Tabuleiro);
+                    Tela.ImprimirPartida(partidaDeXadrez);
                     Console.WriteLine();
-                    Console.WriteLine("Turno: " + partidaDeXadrez.Turno);
-                    Console.WriteLine("Aguardando jogada do: " + partidaDeXadrez.Jogadoratual);
+
                     Console.Write("Origem: ");
                     Posicao origem = Tela.LerPosicaoXadrez().ConverterPosicaoTab();
                     partidaDeXadrez.ValidarPosicaoOrigem(origem);
@@ -36,6 +35,7 @@ internal class Program
                     Tela.imprimirTabuleiro(partidaDeXadrez.Tabuleiro, posicaoPossiveis);
                     Console.Write("Destino: ");
                     Posicao destino = Tela.LerPosicaoXadrez().ConverterPosicaoTab();
+                    partidaDeXadrez.ValidarPosicaoDestino(origem, destino);
 
                     partidaDeXadrez.RealizaJogada(origem, destino);
                 } 

@@ -45,8 +45,18 @@ namespace xadrez.tabuleiro
             return false;
         }
 
+        public bool POdeMoverPara(Posicao posicao)
+        {
+            return MovimentosPossiveis()[posicao.Linha, posicao.Coluna];
+        }
+
         public abstract bool[,] MovimentosPossiveis();
 
         public abstract bool PodeMover(Posicao pos);
+
+        public void DecrementarQtdMovimento()
+        {
+            qteMovimentos--;
+        }
     }
 }
